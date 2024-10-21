@@ -2,7 +2,7 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <title>Página de Cadastro</title>
+    <title>Login - evolua+</title>
     <style>
         body {
             display: flex;
@@ -20,7 +20,7 @@
             align-items: center;
         }
         .right-side {
-            background-image: url('abstract-face-painting.jpg'); /* Substitua pelo caminho da imagem */
+            background-image: url('abstract-yellow-red-painting.jpg'); /* Substitua pelo caminho da imagem */
             background-size: cover;
             width: 50%;
         }
@@ -33,20 +33,17 @@
 </head>
 <body>
     <div class="left-side">
-        <img src="logo.png" alt="evolua! logo"> <!-- Substitua 'logo.png' pelo caminho do logo -->
-        <h1>Cadastro</h1>
-        <form action="/register" method="post"> <!-- Substitua '/register' pelo link de envio do formulário -->
-            <input type="text" id="nome" name="nome" placeholder="Nome">
-            <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome">
-            <input type="text" id="cpf" name="cpf" placeholder="CPF">
-            <input type="date" id="data_nascimento" name="data_nascimento" placeholder="Data de nascimento">
+        <img src="logo.png" alt="evolua+ logo"> <!-- Substitua 'logo.png' pelo caminho do logo -->
+        <h1>Login</h1>
+        <form action="/login" method="post"> <!-- Substitua '/login' pelo link de envio do formulário -->
             <input type="email" id="email" name="email" placeholder="E-mail">
-            <button type="submit">CADASTRAR</button>
+            <input type="password" id="senha" name="senha" placeholder="Senha">
+            <button type="submit">Entrar</button>
         </form>
-        <p>Já possui cadastro? <a href="/login">Entre</a>.</p> <!-- Substitua '/login' pelo link de login -->
+        <p>Necessito criar conta? <a href="/register">Crie uma conta</a>.</p> <!-- Substitua '/register' pelo link de registro -->
     </div>
     <div class="right-side">
-        <!-- Imagem abstrata com rosto -->
+        <!-- Imagem abstrata amarela e vermelha -->
     </div>
 </body>
 </html>
