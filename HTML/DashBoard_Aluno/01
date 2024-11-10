@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolua - Jornada de Autodescoberta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Vamos começar essa jornada de autodescoberta e crescimento juntos?</h1>
+        <p>Evolua com uma jornada personalizada para se conhecer melhor e desenvolver suas competências. Alcance seus objetivos e prepare-se para uma carreira de sucesso!</p>
+        <button>Começar</button>
+    </header>
+
+    <section class="semestres">
+        <h2>Meus semestres</h2>
+        <div class="semestre">
+            <div class="semestre-box ativo">1º Semestre - O Mundo do Trabalho e a Tecnologia</div>
+            <div class="semestre-box">2º Semestre - Competência Competitiva no Universo da Tecnologia</div>
+            <div class="semestre-box">3º Semestre - Personalidade e Carreiras Tecnológicas</div>
+        </div>
+    </section>
+
+    <section class="analise">
+        <h2>Análise dos Pilares</h2>
+        <div class="pilares">
+            <div class="pilar">
+                <h3>1. Trabalho</h3>
+                <p>Desenvolvimento profissional e habilidade para enfrentar desafios no mercado de trabalho.</p>
+                <p>Pontos: 10 | Nível: Básico</p>
+            </div>
+            <div class="pilar">
+                <h3>2. Estudo</h3>
+                <p>Habilidade de aprendizado contínuo e aquisição de conhecimentos na área de interesse.</p>
+                <p>Pontos: 15 | Nível: Intermediário</p>
+            </div>
+            <div class="pilar">
+                <h3>3. Alta moralidade</h3>
+                <p>Comportamento ético e compromisso com valores e princípios morais.</p>
+                <p>Pontos: 18 | Nível: Avançado</p>
+            </div>
+            <div class="pilar">
+                <h3>4. Internacionalidade</h3>
+                <p>Capacidade de adaptação e comunicação em contextos culturais variados.</p>
+                <p>Pontos: 12 | Nível: Básico</p>
+            </div>
+            <div class="pilar">
+                <h3>5. FOIL</h3>
+                <p>Foco no desenvolvimento individual e aperfeiçoamento contínuo.</p>
+                <p>Pontos: 20 | Nível: Avançado</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="trilha-carreira">
+        <h2>Evolua com sua Trilha de Carreira</h2>
+        <div class="trilha">
+            <div class="trilha-item">Trabalho</div>
+            <div class="trilha-item">Estudo</div>
+            <div class="trilha-item">Alta Moralidade</div>
+            <div class="trilha-item">Internacionalidade</div>
+            <div class="trilha-item">FOIL</div>
+        </div>
+    </section>
+</body>
+</html>
